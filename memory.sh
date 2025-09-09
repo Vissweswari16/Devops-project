@@ -1,3 +1,5 @@
 #!/bin/bash
-echo "Memory Usage:"
-free -h
+echo "------ Memory Usage (Windows) ------"
+systeminfo | grep "Total Physical Memory"
+systeminfo | grep "Available Physical Memory"
+
